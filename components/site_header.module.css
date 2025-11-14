@@ -1,0 +1,78 @@
+.header {
+	position: sticky;
+	top: 0;
+	max-width: var(--container);
+	margin: 0 auto;
+	height: 70px;
+	padding: 0 12px;
+	color: var(--color-accent);
+	background: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_left_block {
+	display: flex;
+	align-items: center;
+}
+
+.sisiwaka_touen_icon {
+	border-radius: 50%;
+	height: auto;
+}
+
+.site_title {
+	font-size: 2rem;
+	font-family: "Zen Antique", serif;
+	margin-left: 16px;
+}
+
+.header_right_block {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.minne_icon img {
+	background: #fff;
+	height: 30px;
+	width: auto;
+}
+
+.instagram_icon img {
+	width: 30px;
+	height: 30px;
+}
+
+/* SP */
+@media (max-width: 768px) {
+	.header {
+		max-width: 100%;
+		padding: 0 8px;
+		height: 70px;
+	}
+
+	.sisiwaka_touen_icon {
+		width: 24px;
+	}
+
+	.site_title {
+		font-size: 1.5rem;
+		margin-left: 4px;
+	}
+
+	.header_right_block {
+		gap: 12px;
+	}
+
+	.minne_icon img {
+		height: 24px;
+		width: auto;
+	}
+
+	.instagram_icon img {
+		width: 24px;
+		height: 24px;
+	}
+}
